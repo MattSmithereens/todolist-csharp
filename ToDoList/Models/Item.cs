@@ -25,7 +25,7 @@ namespace ToDoList.Models
 
         public static List<Item> GetAll()
         {
-            return _instances;
+            return new List<Item> { };
         }
 
         public void Save()
